@@ -404,10 +404,59 @@
               <input id="reviewDate" type="date" class="px-3 py-2 rounded-xl border border-slate-200" />
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <textarea id="reviewWins" rows="6" class="w-full px-4 py-3 rounded-2xl border border-slate-200" placeholder=""></textarea>
-              <textarea id="reviewImprove" rows="6" class="w-full px-4 py-3 rounded-2xl border border-slate-200" placeholder=""></textarea>
-              <textarea id="reviewEmotion" rows="4" class="w-full px-4 py-3 rounded-2xl border border-slate-200" placeholder=""></textarea>
-              <textarea id="reviewNotes" rows="4" class="w-full px-4 py-3 rounded-2xl border border-slate-200" placeholder=""></textarea>
+              <textarea id="reviewDecision" rows="6" class="w-full px-4 py-3 rounded-2xl border border-slate-200"
+              placeholder="【决策】
+              选择点（我在哪里做了选择）：
+              - 
+              
+              驱动（信息 / 直觉 / 情绪 / 外界）：
+              - 
+              
+              结果偏差（实际 vs 预期）：
+              - 
+              
+              可迁移规则（if–then，一句话）：
+              - 
+              "></textarea>
+              
+              <textarea id="reviewExecution" rows="6" class="w-full px-4 py-3 rounded-2xl border border-slate-200"
+              placeholder="【执行偏差】
+              计划是什么：
+              - 
+              
+              实际发生：
+              - 
+              
+              偏离点：
+              - 
+              
+              原因（时间 / 精力 / 拖延 / 外界 / 判断）：
+              - 
+              "></textarea>
+              
+              <textarea id="reviewCalibration" rows="4" class="w-full px-4 py-3 rounded-2xl border border-slate-200"
+              placeholder="【现实校准】
+              我以为需要（时间/难度）：
+              - 
+              
+              实际（时间/难度）：
+              - 
+              
+              偏差原因：
+              - 
+              "></textarea>
+              
+              <textarea id="reviewExternal" rows="4" class="w-full px-4 py-3 rounded-2xl border border-slate-200"
+              placeholder="【外部偏差 + 资源】
+              我以为对方会：
+              - 
+              
+              实际对方：
+              - 
+              
+              今天最不值的投入（时间/精力/情绪）：
+              - 
+              "></textarea>
             </div>
             <div class="mt-4 flex gap-3">
               <button id="saveReviewBtn" class="px-4 py-2 rounded-xl bg-slate-900 text-white font-semibold">保存复盘</button>
